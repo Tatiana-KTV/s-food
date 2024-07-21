@@ -3,3 +3,59 @@
 @import 'reset';
 @import 'global';
 
+
+.header {
+  &__content {
+justify-content: space-between;
+align-items: center;
+  }
+  
+  &__logo {
+    margin-right: auto;
+  }
+}
+
+.logo {
+  width: 200px;
+  height: 39px;
+}
+
+.user-nav {
+  justify-content: space-between;
+  align-items: center;
+  &__btn {
+    padding: 10px;
+    position: relative;
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+
+  &__btn-text {
+    background-color: $orange-900;
+    color: $white;
+    font-size: 7px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 24px;
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+    fill: transparent;
+    stroke: $dark-blue900;
+    stroke-width: 1.5;
+  }
+}
+
+.menu {
+  margin-right: 60px;
+  &__item {
+    &:not(:last-child) {
+      margin-right: 45px;
+    }
+  }
+}

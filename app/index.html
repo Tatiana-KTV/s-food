@@ -1,22 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icons/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/icons/favicon/site.webmanifest">
+  <link rel="mask-icon" href="images/icons/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="images/icons/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="images/icons/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="css/style.min.css">
-  <title>Document</title>
+  <title>сервис доставки еды SimpleFood</title>
 </head>
+
 <body>
 
 
+<header class="header">
+  <div class="header__top">
+    <div class="container">
+      <nav class="header__content d-flex">
+        <img class="header__logo logo" src="images/logo.png" alt="логотип компании" width="200" height="39">
+        <ul class="header__menu menu d-flex">
+          <li class="menu__item">
+            <a class="menu__link" href="#">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Блюда</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Контакты</a>
+          </li>
+        </ul>
+        <ul class="header__user-nav user-nav d-flex">
+          <li class="user-nav__item">
+            <button class="user-nav__btn">
+              <svg class="user-nav__icon">
+                <use xlink:href="images/sprite.svg#icon-search"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="user-nav__item">
+            <button class="user-nav__btn">
+              <svg class="user-nav__icon">
+                <use xlink:href="images/sprite.svg#icon-cart"></use>
+              </svg>
+              <span class="user-nav__btn-text">4</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="main"></main>
 
 
+<footer class="footer"></footer>
 
-
-
-
-
-  
   <script src="js/main.min.js"></script>
 </body>
+
 </html>
