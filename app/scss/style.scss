@@ -1,15 +1,9 @@
 @import 'vars';
 @import 'fonts';
 @import 'reset';
+@import 'mixin';
 @import 'global';
 
-
-
-// .header__top.header-fixed {
-//   padding: 30px 0;
-//   background-color: rgba(194, 194, 194, 0.6);
-//   box-shadow: 0px -3px 15px 25px rgba(194, 194, 194, 0.13);
-// }
 
 .header {
   padding-top: 159px;
