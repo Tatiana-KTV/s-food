@@ -454,3 +454,19 @@
     max-width: 990px;
     width: 100%;
 }
+
+.slick-dots {
+  display: flex;
+}
+
+
+
+.slider-arrow__arrow-right,
+.slider-arrow__arrow-left {
+  width: 34px;
+  height: 34px;
+  stroke: #c2c2c2;
+  fill: #c2c2c2;
+  background-color: aqua;
+  cursor: pointer;
+}
