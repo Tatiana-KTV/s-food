@@ -548,6 +548,10 @@
 .footer {
   margin-top: 60px;
 
+  &__top {
+    margin-bottom: 60px;
+  }
+
   &__bottom {
     border-top: 1px solid rgba($gray, 0.2);
     padding: 30px 0;
@@ -577,6 +581,8 @@
     border-radius: 5px;
     background-color: $white;
     color: $dark;
+    font-size: 14px;
+    line-height: 1.3;
     margin-bottom: 12px;
 
     &::placeholder {
@@ -606,4 +612,62 @@
     fill: $white;
     margin-right: 15px;
   }
+}
+
+.company-address {
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+  
+  &__icon {
+    width: 24px;
+    height: 24px;
+    stroke: $dark;
+    fill: none;
+    margin-right: 7px;
+  }
+}
+
+.company-social {
+  display: flex;
+  &__item {
+    &:not(:last-child) {
+      margin-right: 13px;
+    }
+  }
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $gray;
+    border-radius: 50%;
+    width: 39px;
+    height: 39px;
+  }
+  &__icon {
+    fill: $dark;
+    &--fb {
+      width: 10px;
+      height: 21px;
+    }
+    &--tw {
+      width: 21px;
+      height: 17px;
+    }
+    &--ig {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  
+}
+
+.menu-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.footer-content {
+  justify-content: space-between;
 }
