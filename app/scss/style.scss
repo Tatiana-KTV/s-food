@@ -141,7 +141,6 @@
     max-width: 560px;
     width: 100%;
     height: 660px;
-    object-fit: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -615,9 +614,13 @@
 }
 
 .company-address {
+  margin-bottom: 15px;
   &__item {
     display: flex;
     align-items: center;
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
   }
   
   &__icon {
@@ -640,7 +643,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $gray;
+    background-color: $silver-200;
     border-radius: 50%;
     width: 39px;
     height: 39px;
